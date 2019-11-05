@@ -1,0 +1,21 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: black;
+}
+
+.header_1{
+  display: flex;
+  color: gray;
+}
+
+.header_2{
+    display:flex;
+    color: gray;
+}
+
+
+.image_section{
+    display:flex;
+}
