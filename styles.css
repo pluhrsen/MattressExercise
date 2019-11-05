@@ -18,4 +18,26 @@
 
 .image_section{
     display:flex;
+    outline: black dotted;
+    justify-content: center;
+    background-image: url("https://www.cs.huji.ac.il/~danix/itm/Bansai/Bansai-warm.jpg");
+    height: 400px;
+    
 }
+#img_title{
+    display:flex;
+    border: blue dotted;
+    justify-content: center;   
+}
+.img_ad{
+    display:flex;
+    border: green dotted;
+    justify-content: center;   
+}
+
+.img_link{
+    display:flex;
+    border: purple dotted;
+    justify-content: center;   
+}
+
