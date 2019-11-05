@@ -2,9 +2,12 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    background: black;
+    background: white;
 }
 
+#logo {
+    color: blue;
+}
 .header_1{
   display: flex;
   color: gray;
@@ -18,26 +21,71 @@
 
 .image_section{
     display:flex;
-    outline: black dotted;
     justify-content: center;
     background-image: url("https://www.cs.huji.ac.il/~danix/itm/Bansai/Bansai-warm.jpg");
     height: 400px;
     
 }
 #img_title{
+    color: white;
     display:flex;
-    border: blue dotted;
     justify-content: center;   
 }
 .img_ad{
+    color: white;
     display:flex;
-    border: green dotted;
     justify-content: center;   
 }
 
 .img_link{
     display:flex;
-    border: purple dotted;
-    justify-content: center;   
+    justify-content: center;
+    background: white;   
 }
+
+
+.featured-products-title {
+    display: flex;
+    justify-content: center;
+}
+.main-featured-products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-product{
+    display: flex;
+    flex-direction: column;
+}
+
+#left {
+    justify-content: center;
+    align-items: center;
+
+}
+
+#right {
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-now {
+    border: black solid 1px;
+}
+
+.secondary-products {
+    display: flex;
+    justify-content: center;
+}
+.secondary-products > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .footer-button {
+    display: flex;
+    justify-content: center;
+ }
+
 
