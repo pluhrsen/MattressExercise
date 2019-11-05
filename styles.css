@@ -7,6 +7,7 @@
 
 #logo {
     color: blue;
+    font-family: Verdana;
 }
 .header_1{
   display: flex;
